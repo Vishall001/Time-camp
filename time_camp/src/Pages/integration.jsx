@@ -1,10 +1,11 @@
 import { Box, Grid, GridItem, Image, Input, Text } from '@chakra-ui/react';
 import React from 'react';
+import FooterFaq from './footer';
 
 const Integration = () => {
   return (
     <Box>
-      <Box border={'1px solid red'} width={'40%'} margin={'auto'} mar>
+      <Box width={'40%'} margin={'auto'} mar>
         <Box display={'flex'}>
           <Box>
             <Image src="https://cdn-m.timecamp.com/img/greenbranding/integrations/trello.png" />
@@ -107,7 +108,7 @@ const Integration = () => {
           textAlign={'justify'}
           fontWeight={'500'}
         >
-          <Box>
+          <Box width={"50%"}>
             <Text margin={'20px 0 20px 0'}>
               Plan, work and track in one app
             </Text>
@@ -119,7 +120,7 @@ const Integration = () => {
               timer, don't worry. Just add time manually or edit time reports.
             </Text>
           </Box>
-          <Box>
+          <Box width={"50%"}>
             <Text margin={'20px 0 20px 0'}>
               Measure time spent on your chosen Trello boards
             </Text>
@@ -138,10 +139,9 @@ const Integration = () => {
           gap={'10'}
           textAlign={'justify'}
           fontWeight={'500'}
-          marginTop={'30px'}
         >
           <Box>
-            <Text margin={'20px 0 20px 0'}>Automatic time tracking.</Text>
+            <Text margin={'20px 0 20px 0'}>Automatic time tracking </Text>
             <Text>
               Whatever you're working on in Trello, TimeCamp will automatically
               assign the right projects, categories and track time to them.
@@ -159,6 +159,7 @@ const Integration = () => {
           </Box>
         </Box>
       </Box>
+ {/* <FooterFaq/> */}
     </Box>
   );
 };
