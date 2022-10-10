@@ -51,3 +51,5 @@ The project has been completed within the duration of 5 days. Each of us had sha
 **Tags page**
 ![Screenshot (13)](https://user-images.githubusercontent.com/101392029/194867527-a0f4ef8f-70c4-4843-971b-5c0d6e9dc8be.png)
 
+**Time Sheet Page**
+![Screenshot (14)](https://user-images.githubusercontent.com/101392029/194867631-dde65a85-5235-4ffc-9faa-dc78c94d59e1.png)
