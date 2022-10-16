@@ -146,7 +146,6 @@ const Integration = () => {
             mr={"10px"}
             ml={"10px"}
             justifyContent={"space-between"}
-        
             direction={["column", "row", "row", "row"]}
           >
             <Image
@@ -203,7 +202,11 @@ const Integration = () => {
           </Text>
         </Box>
       </Box>
-      <Box marginTop={"70px"} height={"auto"} backgroundColor={"rgb(243,243,243)"}>
+      <Box
+        marginTop={"70px"}
+        height={"auto"}
+        backgroundColor={"rgb(243,243,243)"}
+      >
         <Box width={"50%"} margin={"auto"} marginTop={"60px"}>
           <Box width={"30%"} margin={"auto"}>
             <Text fontWeight={"bold"} fontSize={"30px"}>
@@ -307,8 +310,7 @@ const Integration = () => {
         </Flex>
         <Flex m={"auto"} w={["30%", "30%", "35%", "40%"]}>
           <div class={styles.zoom}>
-          <img  src="https://cdn-m.timecamp.com/img/landing-page/ppc_integrations/trello.png" />
-
+            <img src="https://cdn-m.timecamp.com/img/landing-page/ppc_integrations/trello.png" />
           </div>
         </Flex>
       </Box>
@@ -328,16 +330,6 @@ const Integration = () => {
         </Box>
         <FrequentQues />
       </Container>
-      
-      <Flex margin={"auto"}  w={["30%","40%","50%","60%"]}>
-   <div style={{backgroundColor:"rgb(243,243,243)"}} className={styles.bottom}>
-    <h1>One simple tool to measure everything your business needs.</h1>
-    <p>Remember, you can't improve something if you're not measuring it! If you're tired of the constant guessing, give TimeCamp a go!</p>
-   <button className={styles.btn2} style={{backgroundColor:'rgb(247,184,1)',}}>Try TimeCmp for free </button>
-   <button className={styles.btn3} style={{marginLeft:"30px"}}>Contact Sale</button>
-   </div>
-   </Flex>
-      {/* <Footer /> */}
     </Flex>
   );
 };
