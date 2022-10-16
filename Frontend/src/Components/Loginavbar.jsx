@@ -8,7 +8,6 @@ const Navbar = ({login}) => {
 
     const handlelogin = () => {
         navigate("/login", {replace:true})
-       // console.log("hiii")
     }
 
   return (
