@@ -41,3 +41,15 @@ The project has been completed within the duration of 5 days. Each of us had sha
 
 **Login Page**
 ![login page](https://user-images.githubusercontent.com/97913174/187089754-0ede7063-20ad-42f3-bbaf-cf89d10c50cf.png)
+
+**Sign In**
+![Screenshot (11)](https://user-images.githubusercontent.com/101392029/194867190-458967da-5223-4bc5-b7af-b91e36322248.png)
+
+**Project page**
+![Screenshot (12)](https://user-images.githubusercontent.com/101392029/194867399-008b3f1f-4e5c-4ff7-ac0d-af7927b6b663.png)
+
+**Tags page**
+![Screenshot (13)](https://user-images.githubusercontent.com/101392029/194867527-a0f4ef8f-70c4-4843-971b-5c0d6e9dc8be.png)
+
+**Time Sheet Page**
+![Screenshot (14)](https://user-images.githubusercontent.com/101392029/194867631-dde65a85-5235-4ffc-9faa-dc78c94d59e1.png)
