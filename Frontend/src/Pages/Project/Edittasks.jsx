@@ -59,7 +59,7 @@ const Edittasks = () => {
         }
       )
       .then((res) => {
-        console.log(res);
+        // console.log(res);
         setTasklist(res.data);
         gettasks();
       })

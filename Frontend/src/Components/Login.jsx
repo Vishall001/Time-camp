@@ -109,7 +109,7 @@ const LoginBox = () => {
       .post("/user/login", usercreds)
       .then(
         (res) => (
-          console.log(res.data),
+          // console.log(res.data),
           localStorage.setItem("token", res.data.token),
           setFlag(res.data.msg),
           setRouteflag(res.data.msg)

@@ -43,7 +43,7 @@ const Addprojects = () => {
         }
       )
       .then((res) => {
-        console.log(res);
+        // console.log(res);
       })
       .catch((err) => {
         console.log(err);
@@ -248,7 +248,7 @@ const CreateNewproject = () => {
         }
       )
       .then((res) => {
-        console.log("response", res.data);
+        // console.log("response", res.data);
         setTasklist(res.data);
         gettasks();
       })

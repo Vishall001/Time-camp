@@ -24,7 +24,7 @@ export const Signup = () => {
   })
 
   useEffect(() => {
-    console.log(response)
+    // console.log(response)
     if (response[0] == "U") {
       setError("User already exist")
       setUserExist(true)

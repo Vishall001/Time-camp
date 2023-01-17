@@ -42,7 +42,7 @@ const Tags = () => {
       setLooding(false);
       console.log(res.data)
       setTagData(res.data);
-      console.log("after delete data .....")
+      // console.log("after delete data .....")
     })
     .catch((err) => console.log(err));
   };
@@ -53,7 +53,7 @@ const Tags = () => {
 
   const handleDelete = (id) => {
     console.log("before delete ...... data")
-    console.log(tagdata)
+    // console.log(tagdata)
     setLooding(true);
     setAlert(false)
 
@@ -93,9 +93,9 @@ const Tags = () => {
   const handleupdate = (id) => {
     setAlert(false)
     setLooding(true);
-    console.log(textupdate);
+    // console.log(textupdate);
     const payload = { tagTitle: textupdate };
-    console.log(id);
+    // console.log(id);
 
     axios.patch('/tags/'+id ,payload,{ headers :{Authorization: `Bearer ${token}`}})
       .then((res) => {

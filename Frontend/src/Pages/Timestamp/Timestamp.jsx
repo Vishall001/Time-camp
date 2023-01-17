@@ -105,7 +105,7 @@ const pauseTimer =()=>{
         endTime:stop, 
         tags:selected     
    }, {headers : {Authorization :`Bearer ${token}`}},).then((res)=>{
-        console.log(res);
+        // console.log(res);
       })
       .catch((err)=>{
         console.log(err);
@@ -129,7 +129,7 @@ const pauseTimer =()=>{
       const token =localStorage.getItem("token")
     axios.get("/tags" , {headers : {Authorization :`Bearer ${token}` }})
     .then((res) =>{
-      console.log("projects")
+      // console.log("projects")
       // console.log(res.data);
       setTags(res.data);
     })
@@ -171,7 +171,7 @@ const selectTag=(e)=>{
 
     fetchTags();
     fetchProjects();
-    console.log(duration);
+    // console.log(duration);
   }, [duration]);
 
 
